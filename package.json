@@ -1,0 +1,18 @@
+{
+  "name": "busqueda-sgdi",
+  "version": "1.0.0",
+  "description": "Sistema de Gestión Documental Inteligente",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "MAHP",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "mongojs": "^2.4.0",
+    "mongoose": "^4.10.4",
+    "mongoose-paginate": "^5.0.3"
+  }
+}
