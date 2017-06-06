@@ -9,7 +9,7 @@ var port = 3000;
 var app = express();
 
 //Folder donde estarán los elementos de angular
-app.use(express.static(path.join(__dirname, 'client/dist')));
+app.use(express.static(path.join(__dirname, 'dist')));
 
 //body parser
 app.use(bodyParser.urlencoded({ extended: false }))
